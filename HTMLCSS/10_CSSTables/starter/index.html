@@ -8,6 +8,31 @@
     <title>QuickLab 10 - Tables and CSS</title>
     <style>
         
+        table {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid hsla(0, 0%, 17%, 1);
+            text-align: left;
+        }
+
+        th {
+            background-color: hsla(330, 100%, 71%, 1);
+            padding: 15px 10px;
+            color: hsla(0, 0%, 17%, 1);
+        }
+
+        tr:nth-child(even) {
+            background-color: hsla(0, 0%, 74%, 0.2);
+        }
+
+        tr:hover {
+            background-color: hsla(330, 100%, 71%, 0.5);
+        }
+
     </style>
 </head>
 
